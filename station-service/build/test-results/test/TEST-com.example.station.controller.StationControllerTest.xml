@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.station.controller.StationControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-16T19:21:10.052Z" hostname="MASTER-SPRINGBC" time="0.117">
+  <properties/>
+  <testcase name="postBatch_returnsOk()" classname="com.example.station.controller.StationControllerTest" time="0.117"/>
+  <system-out><![CDATA[2025-10-16T15:21:09.194-04:00  INFO 6212 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.station.controller.StationControllerTest]: StationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-16T15:21:09.239-04:00  INFO 6212 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.station.StationServiceApplication for test class com.example.station.controller.StationControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-10-16T15:21:09.302-04:00  INFO 6212 --- [    Test worker] c.e.s.controller.StationControllerTest   : Starting StationControllerTest using Java 25 with PID 6212 (started by Associate in C:\workspace\training2\station-service)
+2025-10-16T15:21:09.304-04:00  INFO 6212 --- [    Test worker] c.e.s.controller.StationControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:21:10.012-04:00  INFO 6212 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-10-16T15:21:10.013-04:00  INFO 6212 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-10-16T15:21:10.014-04:00  INFO 6212 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-10-16T15:21:10.038-04:00  INFO 6212 --- [    Test worker] c.e.s.controller.StationControllerTest   : Started StationControllerTest in 0.791 seconds (process running for 10.346)
+2025-10-16T15:21:10.093-04:00  INFO 6212 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-10-16T15:21:10.095-04:00  INFO 6212 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-10-16T15:21:10.096-04:00  INFO 6212 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

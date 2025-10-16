@@ -31,3 +31,10 @@ tasks.named("bootJar") {
 tasks.named("jar") {
     enabled = true
 }
+
+// Configure test JVM to allow Byte Buddy experimental support (needed for newer Java versions)
+tasks.test {
+    useJUnitPlatform()
+    // Enable Byte Buddy experimental mode so Mockito's inline mock maker can instrument newer Java versions
+    jvmArgs = listOf("-Dnet.bytebuddy.experimental=true")
+}

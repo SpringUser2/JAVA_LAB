@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.station.service.StationServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-10-16T19:21:10.173Z" hostname="MASTER-SPRINGBC" time="0.321">
+  <properties/>
+  <testcase name="saveAllFromDtos_shouldSaveAll()" classname="com.example.station.service.StationServiceTest" time="0.312"/>
+  <testcase name="saveFromDto_shouldMapAndSave()" classname="com.example.station.service.StationServiceTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

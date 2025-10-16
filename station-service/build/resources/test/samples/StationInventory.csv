@@ -1,0 +1,4 @@
+stationId,name,address,latitude,longitude,capacity,status
+ST-1001,Main St Charging,100 Main St,40.7128,-74.0060,4,ACTIVE
+ST-1002,Westside Fast,200 West Ave,40.7328,-74.0160,2,MAINTENANCE
+ST-1003,Harbor Charge,1 Harbor Rd,40.7000,-74.0200,6,ACTIVE

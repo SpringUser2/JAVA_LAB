@@ -1,0 +1,20 @@
+[
+  {
+    "sessionId": "S-0001",
+    "stationRef": "ST-1001",
+    "vehicleId": "VEH-5001",
+    "startTime": "2025-10-15T08:00:00Z",
+    "endTime": "2025-10-15T08:45:00Z",
+    "energyKWh": 22.5,
+    "costCents": 1500
+  },
+  {
+    "sessionId": "S-0002",
+    "stationRef": "ST-1003",
+    "vehicleId": "VEH-5010",
+    "startTime": "2025-10-15T09:10:00Z",
+    "endTime": "2025-10-15T09:30:00Z",
+    "energyKWh": 8.0,
+    "costCents": 600
+  }
+]
